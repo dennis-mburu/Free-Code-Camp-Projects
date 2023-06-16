@@ -59,3 +59,30 @@ code{
     padding: 1em;
     font-size: 12.48px;
 }
+
+@media (max-width: 750px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        min-width: 100%;
+        display: flex;
+        gap: 1rem;
+        position:static;
+        min-height: 100%;
+        overflow-x: scroll;
+        align-items: center;
+    }
+    main{
+        margin-left: 2em;
+    }
+    .nav-link{
+        border-bottom: none;
+    }
+    .nav-link:first-of-type{
+        border-top: none;
+        /* border-left: 1px solid #4D4E53; */
+    }
+}
+
