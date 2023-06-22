@@ -12,8 +12,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    /* position: fixed; */
-    /* top:0; */
+    position: fixed;
+    min-height: 66px;
+    top:0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 }
 
 a{
@@ -33,6 +37,7 @@ a{
 main{
     max-width: 1005px;
     margin: 0 auto;
+    margin-top: 80px;
 }
 
 form{
@@ -97,10 +102,15 @@ i{
 }
 
 button, input[type='submit']{
-    background-color: #F6B932;
+    background-color: #f1c40f;
     border: none;
     font-size: 1rem;
-    padding: 0.7em
+    padding: 0.7em;
+    cursor: pointer
+}
+
+button:hover, input[type='submit']:hover{
+    background-color: #F6B932;
 }
 
 footer{
@@ -133,6 +143,6 @@ footer  p{
         flex-direction: column;
     }
     i{
-        display: none;
+        /* display: none; */
     }
 }
