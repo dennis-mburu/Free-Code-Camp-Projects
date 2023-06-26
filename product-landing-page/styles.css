@@ -84,7 +84,7 @@ i{
 
 #pricing{
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem
 }
 .trombone{
@@ -137,7 +137,7 @@ footer  p{
 
 @media(max-width:670px){
     #pricing{
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     }
     header{
         flex-direction: column;
