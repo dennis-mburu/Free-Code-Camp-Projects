@@ -32,7 +32,7 @@ nav a{
     line-height: 23.385px;
 }
 
-#welcome-section{
+#welcome-section, #contacts{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ nav a{
     /* margin-bottom: 0; */
 }
 
-#welcome-section h1{
+#welcome-section h1, #contacts h3{
     color: white;
     font-size: 60px;
     margin-bottom: 0;
@@ -75,19 +75,36 @@ nav a{
 }
 
 .grid{
-    max-width: 1350px;
+    max-width: 1280px;
     margin-inline: auto;
+    padding-inline: 2em;
     color: white;
     display: grid;
-    /* grid-template-columns: repeat(auto-flow, minmax(350px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2em;
 }
 
-.grid > a{
-    max-width: 350px;
-}
+
 
 .grid img{
     width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.grid .project-title{
+    text-align: center;
+    background-color: #303841;
+    padding: 1em;
+    margin-top: 0;
+}
+
+.btn-show-all{
+    text-align: center;
+    display: block;
+    background-color: #303841;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    width: 120px;
+    margin-inline: auto;
 }
