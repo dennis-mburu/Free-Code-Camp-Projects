@@ -1,110 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@700&display=swap");
 
-:root{
-    font-family: 'Poppins', sans-serif;
+:root {
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-nav{
-    height: 65.6719px;
-    background-color: #BE3945;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    margin:0;
-    padding: 0;
+nav {
+  height: 65.6719px;
+  background-color: #be3945;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-nav a{
-    margin-right: 3%;
-    font-size: 18px;
-    line-height: 23.385px;
+nav a {
+  margin-right: 3%;
+  font-size: 18px;
+  line-height: 23.385px;
 }
 
-#welcome-section, #contacts{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    background-color: #28292C;  
-    flex-direction: column;
-    /* margin-bottom: 0; */
+#welcome-section,
+#contacts {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28292c;
+  flex-direction: column;
 }
 
-#welcome-section h1, #contacts h3{
-    color: white;
-    font-size: 60px;
-    margin-bottom: 0;
-    font-family: Raleway, sans-serif;
+#welcome-section h1,
+#contacts h3 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 0;
+  font-family: Raleway, sans-serif;
+  text-align: center;
 }
 
-#welcome-section p{
-    margin-top: 0;
-    color: red;
-    font-style: italic;
-    font-size: 27.84px;
-    font-weight: 200;
+#welcome-section p {
+  margin-top: 0;
+  color: red;
+  font-style: italic;
+  font-size: 27.84px;
+  font-weight: 200;
 }
 
-#projects{
-    background-color: #45567D;
-    /* margin-top: 0; */
-    min-height: 100vh;
-    color: white;
-
+#projects {
+  background-color: #45567d;
+  min-height: 100vh;
+  color: white;
 }
 
-#projects h2{
-    margin-top: 0;
-    text-align: center;
-    text-decoration:underline;
-    padding-top: 2em;
-    /* line-height: 20px; */
-    font-size: 2.5rem;
+#projects h2 {
+  margin-top: 0;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2em;
+  font-size: 2.5rem;
 }
 
-.grid{
-    max-width: 1280px;
-    margin-inline: auto;
-    padding-inline: 2em;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2em;
+.grid {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 2em;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2em;
 }
 
-
-
-.grid img{
-    width: 100%;
-    height: 85%;
-    object-fit: cover;
+.grid img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
 }
 
-.grid .project-title{
-    text-align: center;
-    background-color: #303841;
-    padding: 1em;
-    margin-top: 0;
+.grid .project-title {
+  text-align: center;
+  background-color: #303841;
+  padding: 1em;
+  margin-top: 0;
 }
 
-.btn-show-all{
-    text-align: center;
-    display: block;
-    background-color: #303841;
-    font-size: 1.2rem;
-    padding: 0.5em;
-    width: 120px;
-    margin-inline: auto;
+.btn-show-all {
+  text-align: center;
+  display: block;
+  background-color: #303841;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  width: 120px;
+  margin-inline: auto;
+  margin-top: 2em;
+}
+
+#contacts p {
+  color: white;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.links {
+  margin-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#contacts {
+  background-color: #303841;
+  border-top: 6em solid #45567d;
+  min-height: 80vh;
+}
+
+.links a {
+  margin-right: 3%;
+  font-size: 1.4rem;
+}
+
+.foot {
+  background-color: #303841;
+  color: white;
+  padding: 1.5em;
+  border-top: 4px solid #be3945;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot p {
+  margin-right: 3%;
+}
+
+@media (max-width: 645px) {
+  nav a:last-of-type {
+    margin-right: 5%;
+  }
 }

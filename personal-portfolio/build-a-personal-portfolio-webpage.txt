@@ -1,0 +1,350 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#welcome-section">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contacts">Contact</a>
+    </nav>
+    <main>
+      <section id="welcome-section">
+        <h1>Hey I am Mimic</h1>
+        <p>a web developer</p>
+      </section>
+      <section id="projects">
+        <h2>These are some of my projects</h2>
+        <div class="grid">
+          <a
+            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Tribute Page
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Random Quote Machine
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              JavaScript Calculator
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://codepen.io/freeCodeCamp/full/mVEJag"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Map Data Across the Globe
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://codepen.io/freeCodeCamp/full/wGqEga"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Wikipedia Viewer
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Tic Tac Toe Game
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <a
+          href="https://codepen.io/FreeCodeCamp/"
+          class="btn btn-show-all"
+          target="_blank"
+          >Show all <span>></span></a
+        >
+      </section>
+
+      <section id="contacts">
+        <h3>Let's work together...</h3>
+        <p>How do you take your coffee?</p>
+        <div class="links">
+          <a
+            href="https://facebook.com/freecodecamp"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-facebook-square"></i> Facebook</a
+          >
+          <a
+            id="profile-link"
+            href="https://github.com/freecodecamp"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a
+            href="https://twitter.com/freecodecamp"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a
+            href="/cdn-cgi/l/email-protection#95f0edf4f8e5f9f0d5f0edf4f8e5f9f0bbf6faf8"
+            class="btn contact-details"
+            ><i class="fas fa-at"></i> Send a mail</a
+          >
+          <a href="tel:555-555-5555" class="btn contact-details"
+            ><i class="fas fa-mobile-alt"></i> Call me</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot">
+        <p>
+          **This is just a fake portfolio. All the projects and contact details
+          given are not real.
+        </p>
+        <p>
+            &copy; Created for
+            <a href="https://www.freecodecamp.com/" target="_blank"
+              >freeCodeCamp <i class="fab fa-free-code-camp"></i
+            ></a>
+          </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@700&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  height: 65.6719px;
+  background-color: #be3945;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a {
+  margin-right: 3%;
+  font-size: 18px;
+  line-height: 23.385px;
+}
+
+#welcome-section,
+#contacts {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28292c;
+  flex-direction: column;
+}
+
+#welcome-section h1,
+#contacts h3 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 0;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+}
+
+#welcome-section p {
+  margin-top: 0;
+  color: red;
+  font-style: italic;
+  font-size: 27.84px;
+  font-weight: 200;
+}
+
+#projects {
+  background-color: #45567d;
+  min-height: 100vh;
+  color: white;
+}
+
+#projects h2 {
+  margin-top: 0;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2em;
+  font-size: 2.5rem;
+}
+
+.grid {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 2em;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2em;
+}
+
+.grid img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.grid .project-title {
+  text-align: center;
+  background-color: #303841;
+  padding: 1em;
+  margin-top: 0;
+}
+
+.btn-show-all {
+  text-align: center;
+  display: block;
+  background-color: #303841;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  width: 120px;
+  margin-inline: auto;
+  margin-top: 2em;
+}
+
+#contacts p {
+  color: white;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.links {
+  margin-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#contacts {
+  background-color: #303841;
+  border-top: 6em solid #45567d;
+  min-height: 80vh;
+}
+
+.links a {
+  margin-right: 3%;
+  font-size: 1.4rem;
+}
+
+.foot {
+  background-color: #303841;
+  color: white;
+  padding: 1.5em;
+  border-top: 4px solid #be3945;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot p {
+  margin-right: 3%;
+}
+
+@media (max-width: 645px) {
+  nav a:last-of-type {
+    margin-right: 5%;
+  }
+}
+
+
+** end of undefined **
+
